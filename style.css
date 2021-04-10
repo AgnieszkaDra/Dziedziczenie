@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+ 
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+
+.my-box{
+    
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.example-container{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid aliceblue;
+    
+}
+
+.example-container > p:nth-child(1){
+    color: aliceblue;
+}
+
+.example-container > p:nth-child(3){
+    color: aliceblue;
+}
+
+.example-container > .my-box{
+    border-radius: 3px;
+}
+
+.example-container > .my-box:hover{
+    transform: rotate(180deg);
+}
+
+a[target=_blank] {
+    color: yellow;
+  }
+
+.container>#bottom{
+    align-self: flex-end;
+}
+
+
+
+
+
+p{
+    
+    text-align: center;
+    color:black;
+}
